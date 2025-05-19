@@ -21,9 +21,11 @@ This is my **first website**, created using **HTML** and **CSS**. It includes ba
 
 SOtry-of-Palestine.com/
 ├── screenshot/
-│   ├── screenshot-home.png
-│   ├── screenshot-donation.png
-│   └── screenshot-mobile.png
+│   ├── screenshots/home_1.png
+│   ├── screenshots/home_2.png
+│   ├── screenshots/home_3.png
+│   ├── Donation.png
+│   └── mobile.png
 ├── code
 └── README.md
 
@@ -31,6 +33,16 @@ SOtry-of-Palestine.com/
 
 ## 📸 Screenshots
 
+### 🏠 Home Page
+![Home Page 1](screenshots/home_1.png)  
+![Home Page 2](screenshots/home_2.png)  
+![Home Page 3](screenshots/home_3.png)  
+
+### 💸 Donation Page
+![Donation Page](screenshots/donation.png)
+
+### 📱 Mobile View
+![Mobile View](screenshots/mobile.png)
 
 ---
 
@@ -44,7 +56,7 @@ The layout adapts to smaller screens like smartphones, making it **partially mob
 
 - **HTML5**
 - **CSS3**
-- Inline JavaScript used.
+- Minimal **inline JavaScript**
 
 ---
 
@@ -57,5 +69,6 @@ The layout adapts to smaller screens like smartphones, making it **partially mob
 
 ## 🔗 Live Preview
 
+👉 [View the site on Netlify](https://storyofpalestine.netlify.app/)
 
 ---

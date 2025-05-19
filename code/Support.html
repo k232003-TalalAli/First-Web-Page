@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>My project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesup.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+ 
+    <body>
+        <div class="logo"; align="center"><img class="logo" src="imges/traflag.png"/>
+          <nav>
+            <div class="naver" id="naverid">
+              <i class="fa fa-times" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="file:///D:/Talal's%20Stuff/Self/ASSIGNMENTS/ICT/PROJECT/Histoy_Of_Palestine.html">| HISTORY OF PALESTINE |</a></li>
+                <li><a href="file:///D:/Talal's%20Stuff/Self/ASSIGNMENTS/ICT/PROJECT/Israeli_Occupation.html">| ISRAELI OCCUPATION |</a></li>
+                <li><a href="file:///D:/Talal's%20Stuff/Self/ASSIGNMENTS/ICT/PROJECT/People_of_Palestine.html">| PEOPLE OF PALESTINE |</a></li>
+                <li><a href="file:///D:/Talal's%20Stuff/Self/ASSIGNMENTS/ICT/PROJECT/Support.html">| SHOW SUPPORT |</a></li>
+              </ul>
+              <i style="text-align: right !important; color: #d62424;" class="fa fa-bars" onclick="showmenu()"></i>
+            </div>
+          </nav>
+      </div>
+        <br><br><br>
+        <h1 style="color:  #727272; text-align: center;" >SUPPORT PALESTINE NOW !</h1> <br>
+      <p style=" color: rgb(206, 178, 145); text-align: center;">Our Palestinian Brothers and Sisters are struggle to have access to clean food and water <br>
+          Donate now and show support. Even a penny can help save a life. Contribute to Humanity!
+      </p> 
+      </div>
+
+    <div class="container">
+        <form action="">
+        <div class="row">
+
+           <div class="col">
+           <h3 style="text-align: center; font-size: 25px; background-color: lightgray; padding: 10px;" class="title">billing address</h3>
+
+              <div class="inputBox">
+              <span>full name :</span>
+              <input type="text" placeholder="Talal Ali" required>
+              </div>
+
+              <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="abc@example.com" required>
+              </div>
+
+              <div class="inputBox">
+              <span>address:</span>
+              <input type="text" placeholder="H3, Sector 37-A, Landhi" required>
+             </div>
+
+             <div class="inputBox">
+            <span>City: </span>
+            <input type="text" placeholder="Karachi" required>
+            </div>
+
+             <div class="flex">
+
+                <div class="inputBox">
+                <span style="text-align: center;">state :</span>
+                <input type="text" placeholder="Pakistan" required>
+                </div>
+                
+                <div  class="inputBox">
+                <span style="text-align: center;" > zip code :</span>
+                <input type="text" placeholder="123 456" required>
+                </div>
+
+                <div  class="inputBox">
+                    <span style="text-align: center;" > Phone  :</span>
+                    <input type="number" placeholder="01234567899" >
+                    </div>
+
+           </div>    
+
+                   <br>
+           <div class="col2">
+            <h3 style="text-align: center; font-size: 25px; background-color: lightgray; padding: 10px;" class="title">Payment Method</h3>
+    
+             <div class="inputBox" style="display: flex; align-items: center;">
+                <span >Supported Cards:   </span>
+                <img style="height: 70px; width: 200px; padding-left: 10px;" src="imges/trpcard.png" alt="Mastercard, Visa, Paypal"> 
+            </div>
+
+                <div class="inputBox">
+                <span>Name (as on card):</span>
+                <input type="text" placeholder="Mr. Talal Ali" required>
+                </div>
+    
+                <div class="inputBox">
+                <span>Creddit card number:</span>
+                <input type="number" placeholder="1111-2222-3333-4444" required>
+                </div>
+    
+                <div class="inputBox">
+                <span>Expiray date: </span>
+                <input type="date" required>
+                </div>
+    
+                <div class="flex">
+    
+                    <div class="inputBox">
+                    <span>CVV:</span>
+                    <input type="text" placeholder="1234" required>
+                    </div>
+
+                    <div  class="inputBox">
+                        <span style="text-align: center;">Amount to donate ($):</span>
+                        <input type="number" placeholder="100" required>
+                    </div>
+                </div> 
+            </div> 
+            
+               <input type="submit" value="Donate" class="submit-btn">
+    </div>
+    </form>
+</div> 
+<script>
+    var naverid =document.getElementById("naverid");
+    function showmenu(){
+      naverid.style.right ="0";
+    }
+    function hidemenu(){
+      naverid.style.right ="-200px";
+    }
+     </script>
+</body>
+</html>
