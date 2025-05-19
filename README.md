@@ -39,7 +39,7 @@ Story-of-Palestine.com/
 ![Home Page 3](screenshots/home_3.png)  
 
 ### 💸 Donation Page
-![Donation Page](screenshots/donation.png)
+![Donation Page](screenshots/Donation.png)
 
 ### 📱 Mobile View
 ![Mobile View](screenshots/mobile.png)
