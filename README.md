@@ -19,14 +19,14 @@ This is my **first website**, created using **HTML** and **CSS**. It includes ba
 
 ## 🗂️ Project Structure
 
-SOtry-of-Palestine.com/
-├── screenshot/
-│   ├── screenshots/home_1.png
-│   ├── screenshots/home_2.png
-│   ├── screenshots/home_3.png
-│   ├── Donation.png
-│   └── mobile.png
-├── code
+Story-of-Palestine.com/
+├── screenshots/
+│ ├── home_1.png
+│ ├── home_2.png
+│ ├── home_3.png
+│ ├── donation.png
+│ └── mobile.png
+├── code/
 └── README.md
 
 ---
